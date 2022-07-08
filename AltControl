@@ -1,0 +1,36 @@
+-- [[ Settings ]] --
+
+getgenv().prefix = '/' -- prefix which should run the commands
+getgenv().controller = 2200978434-- id of whitelisted user, requirements: whitelisted, in group as premium role, note the controller must join before alts
+
+getgenv().gui = false -- recommneded to be on, to load UI on controller!
+getgenv().lag_reducer = true -- recommended to be on, reduce lag a lot!
+
+getgenv().sendadevery = 15 -- in second
+
+getgenv().alts = { -- max 38 alts
+    Alt1 = 3095222950,-- Alt3, etc make sure all have "," after each alt
+    Alt2 = 3060700400,
+    Alt3 = 3060703213,
+    Alt4 = 3095206326,
+    Alt5 = 3060696136,
+    Alt6 = 3060702114,
+    Alt7 = 3060698675,
+    Alt8 = 3095200781,
+    Alt9 = 3060692119,
+    Alt10 = 3095217483,
+    Alt11 = 346112280,
+    Alt12 = 346122930,
+    Alt13 = 346182910,
+    Alt14 = 346112989,
+    Alt15 = 346113098,
+    Alt16 = 346113734,
+    Alt17 = 346099342,
+    Alt18 = 346099800,
+    Alt19 = 243404270,
+    Alt20 = 242095255,
+}
+
+-- [[ Launcher ]] --
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Husam-Dev/altcontroller/main/CosmoComplex.lua", true))()
